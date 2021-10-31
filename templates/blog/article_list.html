@@ -1,0 +1,15 @@
+{% for article in object_list %}
+    <div>
+    {{ article.name }}
+    </div>
+    <div>
+    {{ article.desc }}
+    </div>
+    <div>
+    {{ article.author }}
+    </div>
+    <div>
+    {{ article.created }}
+    </div>
+    <hr>
+{% endfor %}
